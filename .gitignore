@@ -1,0 +1,38 @@
+# Dependências (obrigatório não enviar node_modules)
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Arquivos nativos temporários / builds
+android/
+ios/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# Metro / caches
+.metro-health-check*
+*.tsbuildinfo
+
+# Logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# Variáveis de ambiente locais
+.env
+.env*.local
+
+# Sistema Operacional e Editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
